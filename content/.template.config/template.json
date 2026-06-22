@@ -3,7 +3,7 @@
   "author": "Miksist",
   "classifications": ["Web API", "Avalonia", "CRUD", "MySQL"],
   "identity": "Miksist.ShopCrud.Template",
-  "name": "Miksist CRUD Template (ASP.NET Core API + MySQL/Pomelo + Swagger + Avalonia Client)",
+  "name": "Miksist CRUD Template (ASP.NET Core API + MySQL/Pomelo + Swagger + Avalonia Client)(dotnet new install Miksist dotnet new miksist -n TestShop -o C:locate)",
   "shortName": "miksistt",
   "sourceName": "ShopApp",
   "preferNameDirectory": true,
