@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>Miksist</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Miksist CRUD Template</Title>
+    <Authors>Miksist</Authors>
+    <Description>Готовый шаблон проекта: ASP.NET Core Web API (CRUD) + MySQL через Pomelo + Swagger + миграции EF Core + клиент на Avalonia (AXAML). Команда: dotnet new miksist</Description>
+    <PackageTags>dotnet-new;templates;avalonia;aspnetcore;crud;mysql;pomelo;swagger</PackageTags>
+    <TargetFramework>net8.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>NU5128</NoWarn>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**" />
+    <Compile Remove="**\*.cs" />
+  </ItemGroup>
+
+</Project>
